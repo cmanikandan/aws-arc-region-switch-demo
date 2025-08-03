@@ -2,6 +2,16 @@
 
 A complete end-to-end test setup for AWS Application Recovery Controller Region Switch between **ap-south-1 (Mumbai)** and **ap-south-2 (Hyderabad)**.
 
+## ⚠️ Important Disclaimers
+
+**🔬 Proof of Concept**: This is a demonstration and proof-of-concept implementation. It is **NOT production-grade** and should not be used in production environments without proper security review, testing, and modifications.
+
+**💰 Cost Warning**: Deploying this demo will incur AWS charges. You are fully responsible for all costs associated with your deployment. Please review AWS pricing for EC2, ALB, and other services before proceeding.
+
+**📚 Documentation**: This demo is based on AWS services as of 2025. Always refer to the [official AWS documentation](https://docs.aws.amazon.com/r53recovery/) for the latest updates, best practices, and service changes.
+
+**🛡️ Security Notice**: This demo uses permissive security groups and configurations for testing purposes. Implement proper security controls for any production use.
+
 ## 🚀 Quick Start
 
 ```bash
